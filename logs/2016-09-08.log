@@ -1,0 +1,16 @@
+ERROR - 2016-09-08 08:24:38 - exception 'ErrorException' with message 'file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. ' in C:\xampp\htdocs\bomb\App\Models\GamesModel.php:29
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\bomb\App\Models\GamesModel.php(29): file_get_contents('http://www.gian...')
+#2 C:\xampp\htdocs\bomb\App\Controllers\HomeController.php(18): App\Models\GamesModel->getAllGames(50, 20)
+#3 [internal function]: HomeController->index()
+#4 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#5 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___index', Array)
+#6 [internal function]: HomeController::___index()
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('HomeController:...', Array)
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#10 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#11 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#12 C:\xampp\htdocs\bomb\public\index.php(62): Yee\Yee->execute()
+#13 {main}

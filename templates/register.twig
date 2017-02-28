@@ -1,0 +1,17 @@
+{% include '/common/header.twig' %}
+
+<body>
+  <form method="POST" action="/yes">
+
+   Име:<input type="name" name="name"  /><br>
+   Eмайл:<input type="text" name="email"  /><br>
+   Username:<input type="username" name="username"  /><br>
+   Парола:<input type="password" name="password" /><br>
+   
+   <input type="submit" name="send" /><br>
+  </form>
+  {{Error}}
+</body>
+
+
+{% include '/common/footer.twig' %}

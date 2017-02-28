@@ -1,0 +1,56 @@
+ERROR - 2016-09-02 10:27:50 - exception 'ErrorException' with message 'Undefined index: id' in C:\xampp\htdocs\bomb\App\Controllers\ReviewsController.php:33
+Stack trace:
+#0 C:\xampp\htdocs\bomb\App\Controllers\ReviewsController.php(33): Yee\Yee::handleErrors(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 [internal function]: ReviewsController->showReviews()
+#2 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___showReviews', Array)
+#4 [internal function]: ReviewsController::___showReviews()
+#5 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('ReviewsControll...', Array)
+#6 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#10 C:\xampp\htdocs\bomb\public\index.php(62): Yee\Yee->execute()
+#11 {main}
+ERROR - 2016-09-02 10:28:03 - exception 'ErrorException' with message 'Undefined index: id' in C:\xampp\htdocs\bomb\App\Controllers\ReviewsController.php:33
+Stack trace:
+#0 C:\xampp\htdocs\bomb\App\Controllers\ReviewsController.php(33): Yee\Yee::handleErrors(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 [internal function]: ReviewsController->showReviews()
+#2 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___showReviews', Array)
+#4 [internal function]: ReviewsController::___showReviews()
+#5 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('ReviewsControll...', Array)
+#6 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#10 C:\xampp\htdocs\bomb\public\index.php(62): Yee\Yee->execute()
+#11 {main}
+ERROR - 2016-09-02 10:28:17 - exception 'ErrorException' with message 'Undefined index: id' in C:\xampp\htdocs\bomb\App\Controllers\ReviewsController.php:33
+Stack trace:
+#0 C:\xampp\htdocs\bomb\App\Controllers\ReviewsController.php(33): Yee\Yee::handleErrors(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 [internal function]: ReviewsController->showReviews()
+#2 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___showReviews', Array)
+#4 [internal function]: ReviewsController::___showReviews()
+#5 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('ReviewsControll...', Array)
+#6 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#10 C:\xampp\htdocs\bomb\public\index.php(62): Yee\Yee->execute()
+#11 {main}
+ERROR - 2016-09-02 10:28:22 - exception 'ErrorException' with message 'Undefined index: id' in C:\xampp\htdocs\bomb\App\Controllers\ReviewsController.php:33
+Stack trace:
+#0 C:\xampp\htdocs\bomb\App\Controllers\ReviewsController.php(33): Yee\Yee::handleErrors(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 [internal function]: ReviewsController->showReviews()
+#2 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___showReviews', Array)
+#4 [internal function]: ReviewsController::___showReviews()
+#5 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('ReviewsControll...', Array)
+#6 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#10 C:\xampp\htdocs\bomb\public\index.php(62): Yee\Yee->execute()
+#11 {main}

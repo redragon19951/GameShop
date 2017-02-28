@@ -1,0 +1,124 @@
+ERROR - 2016-08-25 15:45:55 - exception 'ErrorException' with message 'file_get_contents(http://www.giantbomb.com/franchise/api_key=7c5ac4184a5650319e68cbb20ec800e18f8af943&amp;format=json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+' in C:\xampp\htdocs\bomb\App\Models\GamesModel.php:21
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\bomb\App\Models\GamesModel.php(21): file_get_contents('http://www.gian...')
+#2 C:\xampp\htdocs\bomb\App\Controllers\HomeController.php(20): App\Models\GamesModel->getGameByName()
+#3 [internal function]: HomeController->index()
+#4 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#5 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___index', Array)
+#6 [internal function]: HomeController::___index()
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('HomeController:...', Array)
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#10 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#11 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#12 C:\xampp\htdocs\bomb\public\index.php(59): Yee\Yee->execute()
+#13 {main}
+ERROR - 2016-08-25 15:46:47 - exception 'ErrorException' with message 'file_get_contents(http://www.giantbomb.com/franchise/api_key=7c5ac4184a5650319e68cbb20ec800e18f8af943&amp;format=json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+' in C:\xampp\htdocs\bomb\App\Models\GamesModel.php:21
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\bomb\App\Models\GamesModel.php(21): file_get_contents('http://www.gian...')
+#2 C:\xampp\htdocs\bomb\App\Controllers\HomeController.php(20): App\Models\GamesModel->getGameByName()
+#3 [internal function]: HomeController->index()
+#4 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#5 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___index', Array)
+#6 [internal function]: HomeController::___index()
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('HomeController:...', Array)
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#10 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#11 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#12 C:\xampp\htdocs\bomb\public\index.php(59): Yee\Yee->execute()
+#13 {main}
+ERROR - 2016-08-25 15:48:00 - exception 'ErrorException' with message 'Undefined variable: name' in C:\xampp\htdocs\bomb\App\Models\GamesModel.php:21
+Stack trace:
+#0 C:\xampp\htdocs\bomb\App\Models\GamesModel.php(21): Yee\Yee::handleErrors(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\bomb\App\Controllers\HomeController.php(20): App\Models\GamesModel->getGameByName()
+#2 [internal function]: HomeController->index()
+#3 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___index', Array)
+#5 [internal function]: HomeController::___index()
+#6 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('HomeController:...', Array)
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#11 C:\xampp\htdocs\bomb\public\index.php(59): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-08-25 15:50:02 - exception 'ErrorException' with message 'Undefined variable: name' in C:\xampp\htdocs\bomb\App\Models\GamesModel.php:21
+Stack trace:
+#0 C:\xampp\htdocs\bomb\App\Models\GamesModel.php(21): Yee\Yee::handleErrors(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\bomb\App\Controllers\HomeController.php(20): App\Models\GamesModel->getGameByName()
+#2 [internal function]: HomeController->index()
+#3 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___index', Array)
+#5 [internal function]: HomeController::___index()
+#6 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('HomeController:...', Array)
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#11 C:\xampp\htdocs\bomb\public\index.php(59): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-08-25 15:50:03 - exception 'ErrorException' with message 'Undefined variable: name' in C:\xampp\htdocs\bomb\App\Models\GamesModel.php:21
+Stack trace:
+#0 C:\xampp\htdocs\bomb\App\Models\GamesModel.php(21): Yee\Yee::handleErrors(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\bomb\App\Controllers\HomeController.php(20): App\Models\GamesModel->getGameByName()
+#2 [internal function]: HomeController->index()
+#3 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___index', Array)
+#5 [internal function]: HomeController::___index()
+#6 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('HomeController:...', Array)
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#11 C:\xampp\htdocs\bomb\public\index.php(59): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-08-25 15:50:16 - exception 'ErrorException' with message 'Undefined variable: name' in C:\xampp\htdocs\bomb\App\Models\GamesModel.php:21
+Stack trace:
+#0 C:\xampp\htdocs\bomb\App\Models\GamesModel.php(21): Yee\Yee::handleErrors(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\bomb\App\Controllers\HomeController.php(20): App\Models\GamesModel->getGameByName()
+#2 [internal function]: HomeController->index()
+#3 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___index', Array)
+#5 [internal function]: HomeController::___index()
+#6 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('HomeController:...', Array)
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#11 C:\xampp\htdocs\bomb\public\index.php(59): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-08-25 15:50:22 - exception 'ErrorException' with message 'Missing argument 1 for App\Models\GamesModel::getGameByName(), called in C:\xampp\htdocs\bomb\App\Controllers\HomeController.php on line 20 and defined' in C:\xampp\htdocs\bomb\App\Models\GamesModel.php:17
+Stack trace:
+#0 C:\xampp\htdocs\bomb\App\Models\GamesModel.php(17): Yee\Yee::handleErrors(2, 'Missing argumen...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\bomb\App\Controllers\HomeController.php(20): App\Models\GamesModel->getGameByName()
+#2 [internal function]: HomeController->index()
+#3 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___index', Array)
+#5 [internal function]: HomeController::___index()
+#6 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('HomeController:...', Array)
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#11 C:\xampp\htdocs\bomb\public\index.php(59): Yee\Yee->execute()
+#12 {main}
+ERROR - 2016-08-25 15:50:23 - exception 'ErrorException' with message 'Missing argument 1 for App\Models\GamesModel::getGameByName(), called in C:\xampp\htdocs\bomb\App\Controllers\HomeController.php on line 20 and defined' in C:\xampp\htdocs\bomb\App\Models\GamesModel.php:17
+Stack trace:
+#0 C:\xampp\htdocs\bomb\App\Models\GamesModel.php(17): Yee\Yee::handleErrors(2, 'Missing argumen...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\bomb\App\Controllers\HomeController.php(20): App\Models\GamesModel->getGameByName()
+#2 [internal function]: HomeController->index()
+#3 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___index', Array)
+#5 [internal function]: HomeController::___index()
+#6 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('HomeController:...', Array)
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#11 C:\xampp\htdocs\bomb\public\index.php(59): Yee\Yee->execute()
+#12 {main}

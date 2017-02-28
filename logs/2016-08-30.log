@@ -1,0 +1,14 @@
+ ERROR - 2016-08-30 16:56:06 - exception 'ErrorException' with message 'Undefined index: results' in C:\xampp\htdocs\bomb\App\Controllers\VideosController.php:25
+Stack trace:
+#0 C:\xampp\htdocs\bomb\App\Controllers\VideosController.php(25): Yee\Yee::handleErrors(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 [internal function]: VideosController->showVideos()
+#2 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Managers\Controller\Controller.php(22): call_user_func_array(Array, Array)
+#3 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___showVideos', Array)
+#4 [internal function]: VideosController::___showVideos()
+#5 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Route.php(462): call_user_func_array('VideosControlle...', Array)
+#6 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1333): Yee\Route->dispatch()
+#7 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\Flash.php(85): Yee\Yee->call()
+#8 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Middleware\MethodOverride.php(92): Yee\Middleware\Flash->call()
+#9 C:\xampp\htdocs\bomb\vendor\yeephp\yeephp\Yee\Yee.php(1278): Yee\Middleware\MethodOverride->call()
+#10 C:\xampp\htdocs\bomb\public\index.php(62): Yee\Yee->execute()
+#11 {main}
